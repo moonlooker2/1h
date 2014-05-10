@@ -1,0 +1,309 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>NapoliGol App</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/jquery.mobile-1.4.2.min.css">
+    <link rel="stylesheet" href="assets/css/jquery.mobile.min.css">
+    <link rel="stylesheet" href="assets/css/napoligol.min.css">
+    <link rel="stylesheet" href="assets/css/napoligol.css">
+    <link rel="stylesheet" href="assets/css/appcontent.css">
+    <link rel="stylesheet" href="assets/css/jqm-demos.css">
+	<link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+
+	<script src="assets/js/jquery.js"></script>
+    <script src="assets/js/jquery.mobile-1.4.2.min.js"></script>
+    <script src="assets/js/json_napoligol.js"></script>
+	<script src="phonegap.js"></script>
+    
+    
+</head>
+
+<body>
+
+
+<!-- /page 1-->
+<!-- /page 1-->
+<!-- /page 1-->
+<div data-role="page" class="jqm-demos ui-responsive-panel" id="panel-responsive-page1" data-title="Panel responsive page">
+
+    <div data-role="header">
+	<img style="margin-left:41%; margin-right:41%" src="immagini/napoligoltestatina.png" border="0" alt="#" width='18%' title="#" />
+    <a href="#nav-panel1" data-icon="bars" data-iconpos="notext">Menu</a>
+    </div><!-- /header -->
+
+<div role="main" class="ui-content jqm-content jqm-fullwidth">
+
+<div class="divnotizie" id="mrss1tutto"></div>
+<div class="divnotizie" id="mrss2tutto"></div>
+<div class="divnotizie"  id="mrss3tutto"></div>
+
+
+</div><!-- /content -->
+
+<!-- PANNELLO LATERLE -->
+<!-- PANNELLO LATERLE -->
+<!-- PANNELLO LATERLE -->
+	<div data-role="panel" id="nav-panel1" data-display="push" data-theme="a">
+		<ul data-role="listview">
+            <li data-icon="delete"><a href="#" data-rel="close">CHIUDI MENU</a></li>
+            <li><a href="#panel-responsive-page2">Primo piano</a></li>
+            <li><a href="#panel-responsive-page3">Calciomercato</a></li>
+            <li><a href="#panel-responsive-page4">Interviste</a></li>
+            <li><a href="#panel-responsive-page5">Editoriali</a></li>
+            <li><a href="#panel-responsive-page6"><span style="color:#6699FF">Giochi</span></a></li>
+		</ul>
+	</div>
+<!-- PANNELLO LATERLE -->
+<!-- PANNELLO LATERLE -->
+<!-- PANNELLO LATERLE -->
+<div class="footer">
+<h4><a href="https://www.facebook.com/pages/Mynapolifood/139976439541763" target="_blank"><img src="http://www.napoligol.it/immagini/facebook.png" border="0" alt="facebook" title="Seguici su Facebook" /></a> | <a href="https://twitter.com/mynapolifood" target="_blank"><img src="http://www.napoligol.it/immagini/twitter.png" border="0" alt="twitter" title="Seguici su Twitter" /></a><br />
+<span style="font-size:10px">Testata giornalistica in attesa di registrazione presso il Tribunale di Napoli<br />
+Copyright © 2014 Stemar. Tutti i diritti riservati<br /><a href="mailto:info@napoligol.it">info@napoligol.it</a><br /></span>
+<br /><br /></h4>
+</div>
+
+</div>
+<!-- /end page 1-->
+<!-- /end page 1-->
+
+
+
+
+
+
+
+<!-- /page 2-->
+<!-- /page 2-->
+<!-- /page 2-->
+<div data-role="page" id="panel-responsive-page2">
+
+    <div data-role="header">
+        <h1>Primo Piano</h1>
+    <a href="#nav-panel2" data-icon="bars" data-iconpos="notext">Menu</a>
+    <a href="#panel-responsive-page1" data-icon="back" data-iconpos="notext">Back</a>
+    </div><!-- /header -->
+
+    <div role="main" class="ui-content jqm-content">
+
+
+<div class="divnotizie" id="mrss1primopiano"></div>
+<div class="divnotizie" id="mrss2primopiano"></div>
+<div class="divnotizie" id="mrss3primopiano"></div>
+
+
+</div><!-- /content -->
+
+<!-- PANNELLO LATERLE -->
+<!-- PANNELLO LATERLE -->
+<!-- PANNELLO LATERLE -->
+	<div data-role="panel" id="nav-panel2" data-display="push" data-theme="a">
+		<ul data-role="listview">
+            <li data-icon="delete"><a href="#" data-rel="close">CHIUDI MENU</a></li>
+            <li><a href="#panel-responsive-page1">Home</a></li>
+            <li><a href="#panel-responsive-page3">Calciomercato</a></li>
+            <li><a href="#panel-responsive-page4">Interviste</a></li>
+            <li><a href="#panel-responsive-page5">Editoriali</a></li>
+            <li><a href="#panel-responsive-page6"><span style="color:#6699FF">Giochi</span></a></li>
+		</ul>
+	</div>
+<!-- PANNELLO LATERLE -->
+<!-- PANNELLO LATERLE -->
+<!-- PANNELLO LATERLE -->
+<div class="footer">
+<h4><a href="https://www.facebook.com/pages/Mynapolifood/139976439541763" target="_blank"><img src="http://www.napoligol.it/immagini/facebook.png" border="0" alt="facebook" title="Seguici su Facebook" /></a> | <a href="https://twitter.com/mynapolifood" target="_blank"><img src="http://www.napoligol.it/immagini/twitter.png" border="0" alt="twitter" title="Seguici su Twitter" /></a><br />
+<span style="font-size:10px">Testata giornalistica in attesa di registrazione presso il Tribunale di Napoli<br />
+Copyright © 2014 Stemar. Tutti i diritti riservati<br /><a href="mailto:info@napoligol.it">info@napoligol.it</a><br /></span>
+<br /><br /></h4>
+</div>
+</div>
+<!-- /page 2-->
+<!-- /page 2-->
+<!-- /page 2-->
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- /page 3-->
+<!-- /page 3-->
+<!-- /page 3-->
+<div data-role="page" id="panel-responsive-page3">
+
+    <div data-role="header">
+        <h1>Calciomercato</h1>
+    <a href="#nav-panel3" data-icon="bars" data-iconpos="notext">Menu</a>
+    <a href="#panel-responsive-page1" data-icon="back" data-iconpos="notext">Back</a>
+    </div><!-- /header -->
+
+    <div role="main" class="ui-content jqm-content">
+
+
+<div class="divnotizie" id="mrss1mercato"></div>
+<div class="divnotizie" id="mrss2mercato"></div>
+<div class="divnotizie" id="mrss3mercato"></div>
+
+
+</div><!-- /content -->
+
+<!-- PANNELLO LATERLE -->
+<!-- PANNELLO LATERLE -->
+<!-- PANNELLO LATERLE -->
+	<div data-role="panel" id="nav-panel3" data-display="push" data-theme="a">
+		<ul data-role="listview">
+            <li data-icon="delete"><a href="#" data-rel="close">CHIUDI MENU</a></li>
+            <li><a href="#panel-responsive-page1">Home</a></li>
+            <li><a href="#panel-responsive-page2">Primo piano</a></li>
+            <li><a href="#panel-responsive-page4">Interviste</a></li>
+            <li><a href="#panel-responsive-page5">Editoriali</a></li>
+            <li><a href="#panel-responsive-page6"><span style="color:#6699FF">Giochi</span></a></li>
+		</ul>
+	</div>
+<!-- PANNELLO LATERLE -->
+<!-- PANNELLO LATERLE -->
+<!-- PANNELLO LATERLE -->
+<div class="footer">
+<h4><a href="https://www.facebook.com/pages/Mynapolifood/139976439541763" target="_blank"><img src="http://www.napoligol.it/immagini/facebook.png" border="0" alt="facebook" title="Seguici su Facebook" /></a> | <a href="https://twitter.com/mynapolifood" target="_blank"><img src="http://www.napoligol.it/immagini/twitter.png" border="0" alt="twitter" title="Seguici su Twitter" /></a><br />
+<span style="font-size:10px">Testata giornalistica in attesa di registrazione presso il Tribunale di Napoli<br />
+Copyright © 2014 Stemar. Tutti i diritti riservati<br /><a href="mailto:info@napoligol.it">info@napoligol.it</a><br /></span>
+<br /><br /></h4>
+</div>
+</div>
+<!-- /page 2-->
+<!-- /page 2-->
+<!-- /page 2-->
+
+
+
+
+
+
+
+
+<!-- /page 4-->
+<!-- /page 4-->
+<!-- /page 4-->
+<div data-role="page" id="panel-responsive-page4">
+
+    <div data-role="header">
+        <h1>Interviste</h1>
+    <a href="#nav-panel4" data-icon="bars" data-iconpos="notext">Menu</a>
+    <a href="#panel-responsive-page1" data-icon="back" data-iconpos="notext">Back</a>
+    </div><!-- /header -->
+
+    <div role="main" class="ui-content jqm-content">
+
+
+<div class="divnotizie" id="mrss1interviste"></div>
+<div class="divnotizie" id="mrss2interviste"></div>
+<div class="divnotizie" id="mrss3interviste"></div>
+
+
+</div><!-- /content -->
+
+
+<!-- PANNELLO LATERLE -->
+<!-- PANNELLO LATERLE -->
+<!-- PANNELLO LATERLE -->
+	<div data-role="panel" id="nav-panel4" data-display="push" data-theme="a">
+		<ul data-role="listview">
+            <li data-icon="delete"><a href="#" data-rel="close">CHIUDI MENU</a></li>
+            <li><a href="#panel-responsive-page1">Home</a></li>
+            <li><a href="#panel-responsive-page2">Primo piano</a></li>
+            <li><a href="#panel-responsive-page3">Calciomercato</a></li>
+            <li><a href="#panel-responsive-page5">Editoriali</a></li>
+            <li><a href="#panel-responsive-page6"><span style="color:#6699FF">Giochi</span></a></li>
+		</ul>
+	</div>
+<!-- PANNELLO LATERLE -->
+<!-- PANNELLO LATERLE -->
+<!-- PANNELLO LATERLE -->
+
+<div class="footer">
+<h4><a href="https://www.facebook.com/pages/Mynapolifood/139976439541763" target="_blank"><img src="http://www.napoligol.it/immagini/facebook.png" border="0" alt="facebook" title="Seguici su Facebook" /></a> | <a href="https://twitter.com/mynapolifood" target="_blank"><img src="http://www.napoligol.it/immagini/twitter.png" border="0" alt="twitter" title="Seguici su Twitter" /></a><br />
+<span style="font-size:10px">Testata giornalistica in attesa di registrazione presso il Tribunale di Napoli<br />
+Copyright © 2014 Stemar. Tutti i diritti riservati<br /><a href="mailto:info@napoligol.it">info@napoligol.it</a><br /></span>
+<br /><br /></h4>
+</div>
+
+
+</div>
+<!-- /page 2-->
+<!-- /page 2-->
+<!-- /page 2-->
+
+
+
+
+
+
+
+
+<!-- /page 5-->
+<!-- /page 5-->
+<!-- /page 5-->
+<div data-role="page" id="panel-responsive-page5">
+
+    <div data-role="header">
+        <h1>Editoriali</h1>
+    <a href="#nav-panel5" data-icon="bars" data-iconpos="notext">Menu</a>
+    <a href="#panel-responsive-page1" data-icon="back" data-iconpos="notext">Back</a>
+    </div><!-- /header -->
+
+    <div role="main" class="ui-content jqm-content">
+
+
+<div class="divnotizie" id="mrss1editoriale"></div>
+<div class="divnotizie" id="mrss2editoriale"></div>
+<div class="divnotizie" id="mrss3editoriale"></div>
+
+
+</div><!-- /content -->
+
+<!-- PANNELLO LATERLE -->
+<!-- PANNELLO LATERLE -->
+<!-- PANNELLO LATERLE -->
+	<div data-role="panel" id="nav-panel5" data-display="push" data-theme="a">
+		<ul data-role="listview">
+            <li data-icon="delete"><a href="#" data-rel="close">CHIUDI MENU</a></li>
+            <li><a href="#panel-responsive-page1">Home</a></li>
+            <li><a href="#panel-responsive-page2">Primo piano</a></li>
+            <li><a href="#panel-responsive-page3">Calciomercato</a></li>
+            <li><a href="#panel-responsive-page4">Interviste</a></li>
+            <li><a href="#panel-responsive-page6"><span style="color:#6699FF">Giochi</span></a></li>
+		</ul>
+	</div>
+<!-- PANNELLO LATERLE -->
+<!-- PANNELLO LATERLE -->
+<!-- PANNELLO LATERLE -->
+<div class="footer">
+<h4><a href="https://www.facebook.com/pages/Mynapolifood/139976439541763" target="_blank"><img src="http://www.napoligol.it/immagini/facebook.png" border="0" alt="facebook" title="Seguici su Facebook" /></a> | <a href="https://twitter.com/mynapolifood" target="_blank"><img src="http://www.napoligol.it/immagini/twitter.png" border="0" alt="twitter" title="Seguici su Twitter" /></a><br />
+<span style="font-size:10px">Testata giornalistica in attesa di registrazione presso il Tribunale di Napoli<br />
+Copyright © 2014 Stemar. Tutti i diritti riservati<br /><a href="mailto:info@napoligol.it">info@napoligol.it</a><br /></span>
+<br /><br /></h4>
+</div>
+</div>
+<!-- /page 2-->
+<!-- /page 2-->
+<!-- /page 2-->
+
+
+
+
+
+
+
+
+</body>
+</html>
