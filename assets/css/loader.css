@@ -1,0 +1,17 @@
+body {
+    overflow: hidden;
+}
+
+#startLoader {
+	background-image: url('themes/images/ajax-loader.gif');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #7bb8e0;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 100000;
+}
